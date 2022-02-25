@@ -6,3 +6,9 @@ thankyou
 testing 123 this is 
 jenkins
 master kranthi
+node  {
+    stage('scm'){
+        git  'https://github.com/devopsbykranthi/madhavan.git'
+    }
+
+}
